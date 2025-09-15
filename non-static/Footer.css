@@ -1,0 +1,105 @@
+#f-013 {
+  margin-top: 30vh;
+  height: 35vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.218);
+  display: flex;
+}
+
+#f-014 {
+  width: 25vw;
+  text-align: left;
+}
+
+#f-logo {
+  margin-left: auto;
+  margin-left: 4vw;
+  font-size: 4vh;
+  font-weight: bolder;
+  display: flex;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#f-logo-Quick {
+  color: #434343;
+}
+#f-logo-Mart {
+  color: #e8b600;
+}
+
+#f-15 {
+  margin-top: 3vh;
+  color: rgba(0, 0, 0, 0.498);
+  font-size: 2vh;
+}
+
+#f-16 {
+  margin-top: 3vh;
+  display: flex;
+  gap: 1vw;
+}
+
+#f-16 div {
+  height: 5vh;
+  width: 2.5vw;
+  border-radius: 20px;
+  background-color: #f4f4f4fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#fb {
+  background-image: url("https://cdn.freebiesupply.com/images/large/2x/facebook-logo-circle-transparent.png");
+}
+#insta {
+  background-image: url("https://freepngimg.com/save/webp/118541-logo-instagram-png-download-free");
+}
+#X {
+  background-image: url("https://pngimg.com/d/x_logo_PNG13.png");
+}
+#linkedin {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png");
+}
+
+#f-17,
+#f-18,
+#f-19 {
+  color: rgba(0, 0, 0, 0.498);
+  line-height: 4vh;
+  font-size: medium;
+  font-size: 2vh;
+}
+#f-17 {
+  margin-left: 20vw;
+}
+
+#f-18 {
+  margin-left: 5vw;
+}
+#f-19 {
+  margin-left: 5vw;
+}
+
+#f-17 ul:first-child,
+#f-18 ul:first-child,
+#f-19 ul:first-child {
+  color: rgba(0, 0, 0, 0.804);
+}
+
+#f-20 {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-right: auto;
+  margin-left: 7.4vw;
+  color: rgba(0, 0, 0, 0.577);
+  font-size: small;
+}

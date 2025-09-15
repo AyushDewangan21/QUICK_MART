@@ -1,0 +1,55 @@
+#hero-d01 {
+  margin-top: 15vh;
+  height: max-content;
+  width: 95vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+#hero-scroll-banner {
+  display: flex;
+  overflow-x: auto; /* enable horizontal scroll */
+  scroll-snap-type: x mandatory; /* smooth snapping */
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+}
+#hero-scroll-banner::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+#hero-d02 {
+  flex: 0 0 90vw; /* each image takes 90vw */
+  height: auto; /* keep aspect ratio */
+  scroll-snap-align: center; /* snap image to center */
+  margin-right: 10px; /* small gap (optional) */
+  border-radius: 50px;
+  background-image: url("../public/banner01.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero-d03 {
+  flex: 0 0 90vw; /* each image takes 90vw */
+  height: auto; /* keep aspect ratio */
+  scroll-snap-align: center; /* snap image to center */
+  margin-right: 10px; /* small gap (optional) */
+  border-radius: 12px;
+  background-image: url("../public/banner03.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero-d04 {
+  flex: 0 0 90vw; /* each image takes 90vw */
+  height: auto; /* keep aspect ratio */
+  scroll-snap-align: center; /* snap image to center */
+  margin-right: 10px; /* small gap (optional) */
+  border-radius: 12px;
+
+  background-image: url("../public/banner02.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

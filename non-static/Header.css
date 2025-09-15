@@ -1,0 +1,127 @@
+/* #d01 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+} */
+#d01 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed; /* always stays at top */
+  top: 0;
+  left: 0;
+  transition: top 0.3s ease-in-out; /* smooth slide */
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* hidden state */
+#d01.hidden {
+  top: -10vh; /* slides header out of view */
+}
+
+#logo {
+  font-size: 4vh;
+  font-weight: bolder;
+  display: flex;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+
+#logo #logo-Quick {
+  color: #434343;
+}
+#logo #logo-Mart {
+  color: #e8b600;
+}
+
+#d02 {
+  height: 5vh;
+  width: 20vw;
+  margin-left: 2vw;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: red;
+
+  width: 250px;
+  padding: 0px 12px 0px 40px;
+  border-radius: 20px;
+
+  background: #f5f5f5
+    url("https://cdn-icons-png.flaticon.com/512/622/622669.png") no-repeat 10px
+    center;
+
+  background-size: 18px;
+  color: #676565;
+}
+#d02:focus {
+  outline: none;
+}
+
+#d03 {
+  height: 3vh;
+  width: 1.5vw;
+  margin-left: 35vw;
+  background-image: url("https://www.svgrepo.com/show/80543/shopping-cart-outline.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(50%);
+  cursor: pointer;
+}
+
+#d04 {
+  height: 2.5vh;
+  width: 1.3vw;
+  background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-heart-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: invert(); */
+  margin-left: 3vw;
+  filter: contrast(50%);
+  cursor: pointer;
+}
+
+#d05 {
+  height: 3vh;
+  width: 1.4vw;
+  background-image: url("https://www.svgrepo.com/show/416019/account-user-avatar.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: invert(); */
+  margin-left: 3vw;
+  filter: contrast(50%);
+}
+
+#d06 {
+  height: 1px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.218);
+  margin-bottom: 2vh;
+  /* margin-top: 1vh; */
+}
+
+#d07 {
+  width: 3vw;
+  text-align: center;
+  /* margin-left: 2vw; */
+  color: #434343;
+  border-bottom: 3px solid #e8b600ac;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+#d08 {
+  width: 3vw;
+  text-align: center;
+  margin-left: 2vw;
+  color: #434343;
+  border-bottom: 3px solid #e8b600ac;
+  padding-bottom: 3px;
+  cursor: pointer;
+}

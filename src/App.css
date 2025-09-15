@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#AppDiv {
+  height: 200vh;
+  scroll-behavior: auto;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
