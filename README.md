@@ -1,5 +1,5 @@
 # Welcome to QuickMart
-
+# [Live](https://quick-mart-ochre.vercel.app/)
 ## Home Page 👇
 
 <img src="https://github.com/user-attachments/assets/06e62818-6053-4cb9-b983-f67294565bf1" alt="localhost_5173_" width="900" />
